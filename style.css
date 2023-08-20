@@ -1,0 +1,736 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    background: hsl(226, 43%, 10%);
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    width: 910px;
+    height: 445px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+}
+
+/* Left Container Starts Here */
+.left-container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 340px;
+    background: hsl(235, 46%, 20%);
+}
+
+.left-top{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 20px;
+    padding-top: 20px;
+    background: hsl(246, 80%, 60%);
+     border-radius: 10px;
+}
+
+.left-top img{
+    width: 30%;
+    border-radius: 50px;
+    border: 2px solid #fff;
+}
+
+.left-top p{
+    color: hsl(236, 100%, 87%);
+    font-size: 14px;
+    padding-top: 35px;
+}
+
+.left-top h5{
+    color: #fff;
+    font-size: 14px;
+    padding-top: 5px;
+    font-size: 1.9rem;
+    margin-bottom: 50px;
+    letter-spacing: 1.5px;
+}
+
+.left-bottom{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-bottom .link{
+    text-decoration: none;
+    color: hsl(235, 45%, 61%);
+    margin-top: 12px;
+}
+
+.left-bottom .link:hover{
+    text-decoration: none;
+    color: #fff;
+    margin-top: 12px;
+}
+
+.left-bottom .active{
+    text-decoration: none;
+    color: #fff;
+    margin-top: 12px;
+}
+/* Left Container Ends Here */
+
+
+/* Right Container Starts Here */
+.right-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Card one Starts Here */
+.card1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    background: hsl(15, 100%, 70%);
+    width: 220px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.card1 .img-container{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.card1 .img-container img{
+    width: 25%;
+}
+
+.card1 .card-content{
+    border-radius: 10px;
+    background: hsl(235, 46%, 20%);
+    padding: 15px;
+    height: 180px;
+    margin-top: -6%;
+}
+
+.card1 .card-content:hover{
+    background: hsl(237, 36%, 30%);
+    transition: all ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+
+.card1 .card-content .card-content-header p{
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.card1 .card-content .card-content-header .content-img {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -4%;
+}
+
+.card1 .card-content .card-content-header .content-img img {
+    width: 8%;
+    color: #fff;
+}
+
+.card1 .card-content .card-content-header .content-img img:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.card1 .card-content .card-content-content{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.card1 .card-content .card-content-content h4{
+    font-size: 2.4rem;
+    color: #fff;
+}
+
+.card1 .card-content .card-content-content p{
+    font-size: 14px;
+    color: hsl(236, 100%, 87%);
+    font-weight: 500;
+    padding-top: 5px;
+}
+/* Card one Ends Here */
+
+
+/* Card Two Starts Here */
+.card2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    background: hsl(195, 74%, 62%);
+    width: 220px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.card2 .img-container{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.card2 .img-container img{
+    width: 25%;
+}
+
+.card2 .card-content{
+    border-radius: 10px;
+    background: hsl(235, 46%, 20%);
+    padding: 15px;
+    height: 180px;
+    margin-top: -6%;
+}
+
+.card2 .card-content:hover{
+    background: hsl(237, 36%, 30%);
+    transition: all ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+
+.card2 .card-content .card-content-header p{
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.card2 .card-content .card-content-header .content-img {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -4%;
+}
+
+.card2 .card-content .card-content-header .content-img img {
+    width: 8%;
+    color: #fff;
+}
+
+.card2 .card-content .card-content-header .content-img img:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.card2 .card-content .card-content-content{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.card2 .card-content .card-content-content h4{
+    font-size: 2.4rem;
+    color: #fff;
+}
+
+.card2 .card-content .card-content-content p{
+    font-size: 14px;
+    color: hsl(236, 100%, 87%);
+    font-weight: 500;
+    padding-top: 5px;
+}
+/* Card two Ends Here */
+
+
+/* Card three Starts Here */
+.card3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    background: hsl(348, 100%, 68%);
+    width: 220px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.card3 .img-container{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.card3 .img-container img{
+    width: 25%;
+}
+
+.card3 .card-content{
+    border-radius: 10px;
+    background: hsl(235, 46%, 20%);
+    padding: 15px;
+    height: 180px;
+    margin-top: -6%;
+}
+
+.card3 .card-content:hover{
+    background: hsl(237, 36%, 30%);
+    transition: all ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+
+.card3 .card-content .card-content-header p{
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.card3 .card-content .card-content-header .content-img {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -4%;
+}
+
+.card3 .card-content .card-content-header .content-img img {
+    width: 8%;
+    color: #fff;
+}
+
+.card3 .card-content .card-content-header .content-img img:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.card3 .card-content .card-content-content{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.card3 .card-content .card-content-content h4{
+    font-size: 2.4rem;
+    color: #fff;
+}
+
+.card3 .card-content .card-content-content p{
+    font-size: 14px;
+    color: hsl(236, 100%, 87%);
+    font-weight: 500;
+    padding-top: 5px;
+}
+/* Card three Ends Here */
+
+
+
+/* Card Four Starts Here */
+.card4{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 20px;
+    background: hsl(145, 58%, 55%);
+    width: 220px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.card4 .img-container{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.card4 .img-container img{
+    width: 25%;
+}
+
+.card4 .card-content{
+    border-radius: 10px;
+    background: hsl(235, 46%, 20%);
+    padding: 15px;
+    height: 180px;
+    margin-top: 3%;
+}
+
+.card4 .card-content:hover{
+    background: hsl(237, 36%, 30%);
+    transition: all ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+
+.card4 .card-content .card-content-header p{
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.card4 .card-content .card-content-header .content-img {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -3%;
+}
+
+.card4 .card-content .card-content-header .content-img img {
+    width: 8%;
+    color: #fff;
+}
+
+.card4 .card-content .card-content-header .content-img img:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.card4 .card-content .card-content-content{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.card4 .card-content .card-content-content h4{
+    font-size: 2.4rem;
+    color: #fff;
+}
+
+.card4 .card-content .card-content-content p{
+    font-size: 14px;
+    color: hsl(236, 100%, 87%);
+    font-weight: 500;
+    padding-top: 5px;
+}
+/* Card Four Ends Here */
+
+
+
+/* Card Five Starts Here */
+.card5{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 20px;
+    background: hsl(264, 64%, 52%);
+    width: 220px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.card5 .img-container{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.card5 .img-container img{
+    width: 25%;
+}
+
+.card5 .card-content{
+    border-radius: 10px;
+    background: hsl(235, 46%, 20%);
+    padding: 15px;
+    height: 180px;
+    margin-top: -13%;
+}
+
+.card5 .card-content:hover{
+    background: hsl(237, 36%, 30%);
+    transition: all ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+
+.card5 .card-content .card-content-header p{
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.card5 .card-content .card-content-header .content-img {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -4%;
+}
+
+.card5 .card-content .card-content-header .content-img img {
+    width: 8%;
+    color: #fff;
+}
+
+.card5 .card-content .card-content-header .content-img img:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.card5 .card-content .card-content-content{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.card5 .card-content .card-content-content h4{
+    font-size: 2.4rem;
+    color: #fff;
+}
+
+.card5 .card-content .card-content-content p{
+    font-size: 14px;
+    color: hsl(236, 100%, 87%);
+    font-weight: 500;
+    padding-top: 5px;
+}
+/* Card Five Ends Here */
+
+
+
+/* Card Six Starts Here */
+.card6{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 20px;
+    background: hsl(43, 84%, 65%);
+    width: 220px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.card6 .img-container{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.card6 .img-container img{
+    width: 25%;
+}
+
+.card6 .card-content{
+    border-radius: 10px;
+    background: hsl(235, 46%, 20%);
+    padding: 15px;
+    height: 180px;
+    margin-top: -5%;
+}
+
+.card6 .card-content:hover{
+    background: hsl(237, 35%, 34%);
+    transition: all ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+
+.card6 .card-content .card-content-header p{
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.card6 .card-content .card-content-header .content-img {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -4%;
+}
+
+.card6 .card-content .card-content-header .content-img img {
+    width: 8%;
+    color: #fff;
+}
+
+.card6 .card-content .card-content-header .content-img img:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.card6 .card-content .card-content-content{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.card6 .card-content .card-content-content h4{
+    font-size: 2.4rem;
+    color: #fff;
+}
+
+.card6 .card-content .card-content-content p{
+    font-size: 14px;
+    color: hsl(236, 100%, 87%);
+    font-weight: 500;
+    padding-top: 5px;
+}
+/* Card three Ends Here */
+
+
+/* Right Container Ends Here */
+
+/* Reponsive Design Starts Here */
+@media only screen and (max-width: 390px){
+    .main-container{
+        display: flex;
+        flex-direction: column;
+        width: 280px;
+        height: 445px;
+        position: absolute;
+        top: 28%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        padding: 10px;
+    }
+
+    .left-container{
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        width: 220px;
+        background: hsl(235, 46%, 20%);
+        margin-left: 20px;
+    }
+
+    .left-top{
+        display: flex;
+        flex-direction: row;
+        align-items: left;
+        padding: 4px;
+        padding-top: 10px;
+        background: hsl(246, 80%, 60%);
+        border-radius: 10px;
+    }
+
+    .left-top img{
+        width: 60px;
+        height: 60px;
+        border-radius: 50px;
+        border: 2px solid #fff;
+    }
+
+    .left-top p{
+        color: hsl(236, 100%, 87%);
+        font-size: 13px;
+        padding-top: 5px;
+        letter-spacing: 2px;
+        margin-left: 15px;
+    }
+
+    .left-top h5{
+        /* margin-left: 0px; */
+        color: #fff;
+        font-size: 13px;
+        padding-top: 25px;
+        margin-left: -78px;
+        margin-bottom: 0px;
+        letter-spacing: 1.1px;
+    }
+
+    .left-bottom{
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .left-bottom a{
+        text-align: center;
+        margin-left: 12px;
+    }
+
+    .right-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card1{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-top: 20px;
+        background: hsl(15, 100%, 70%);
+        width: 220px;
+        height: 200px;
+        border-radius: 10px;
+        margin-left: 20px;
+
+    }
+
+    .card2{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-top: 20px;
+        background: hsl(195, 74%, 62%);
+        width: 220px;
+        height: 200px;
+        border-radius: 10px;
+        margin-left: 20px;
+
+    }
+
+    .card3{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-top: 20px;
+        background: hsl(348, 100%, 68%);
+        width: 220px;
+        height: 200px;
+        border-radius: 10px;
+        margin-left: 20px;
+
+    }
+
+    .card4{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-top: 20px;
+        background: hsl(145, 58%, 55%);
+        width: 220px;
+        height: 200px;
+        border-radius: 10px;
+        margin-left: 20px;
+
+    }
+
+    .card5{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-top: 20px;
+        background: hsl(264, 64%, 52%);
+        width: 220px;
+        height: 200px;
+        border-radius: 10px;
+        margin-left: 20px;
+
+    }
+
+    .card6{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-top: 20px;
+        background: hsl(43, 84%, 65%);
+        width: 220px;
+        height: 200px;
+        border-radius: 10px;
+        margin-left: 20px;
+
+    }
+}
+/* Reponsive Design Ends Here */
+
